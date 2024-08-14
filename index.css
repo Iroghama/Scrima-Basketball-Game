@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    background-color: #1b244a;
+    align-items: center;
+}
+.super-container{
+    background-color: #1b244a;
+    margin: auto;
+    margin-top: 15vh;
+    width: 50%;
+    padding: 68px 82px;
+
+}
+h3{
+    margin-top: 0;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 21px;
+}
+.score, #timer{
+    
+    color: #f94f6d;
+    font-family: 'Cursed Timer ULiL', sans-serif; 
+    border-radius: 5px ;                            
+}
+.score{
+    width: 155px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 90px;
+    margin-top: 0;
+    margin-bottom: 26px; 
+    background-color: #080001;
+}
+ 
+#timer{
+    margin: auto;
+    font-size: 50px;
+}
+.score-buttons{
+    display: flex;
+    width: 155px;
+    height: 45px;
+    justify-content: space-between;
+
+}
+.increment, #start-game{
+    
+    border: 2px solid #9aabd8;
+    background-color: transparent;
+    border-radius: 5px;
+    height: inherit;
+    width: 45px;
+    font-family:'Cursed Timer ULiL', sans-serif;  
+    color:#9aabd8 ;
+}
+#start-game{
+    width: auto;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #9aabd8;
+    color: #1b244a;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#announce{
+    color: #EEEEEE;
+    visibility: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    margin-top: -30px; /* I didn't want to increase the width so i wantesd it to look like it was in the same place as the start game button*/
+    
+}
+
+* :disabled{
+    background-color: #808080;
+    color: dimgray;
+    border: 0;
+    opacity: 0.5;
+}
